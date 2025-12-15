@@ -1,0 +1,31 @@
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg.yml -o Global.checkpoints="./pretrain_models/en_server_pgnetA/best_accuracy"
+
+##############
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_blur_only_self.yml  -o Global.checkpoints="./pretrain_models/en_server_pgnetA/best_accuracy"
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_blur_only_self_sharpen.yml  -o Global.checkpoints="./pretrain_models/en_server_pgnetA/best_accuracy"
+
+
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_low_light_only_self.yml  -o Global.checkpoints="./pretrain_models/en_server_pgnetA/best_accuracy"
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_low_light_only_self_clahe.yml  -o Global.checkpoints="./pretrain_models/en_server_pgnetA/best_accuracy"
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_low_light_only_self_msrcp.yml  -o Global.checkpoints="./pretrain_models/en_server_pgnetA/best_accuracy"
+
+###############
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_blur_only_self.yml  -o Global.checkpoints="./output/pgnet_r50_vd_unclean_blur_only_self/best_accuracy"
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_blur_only_self_sharpen.yml  -o Global.checkpoints="./output/pgnet_r50_vd_unclean_blur_only_self/best_accuracy"
+
+
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_low_light_only_self.yml  -o Global.checkpoints="./output/pgnet_r50_vd_unclean_low_light_only_self/best_accuracy"
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_low_light_only_self_clahe.yml  -o Global.checkpoints="./output/pgnet_r50_vd_unclean_low_light_only_self/best_accuracy"
+
+python3 tools/eval.py -c configs/e2e/e2e_r50_vd_pg_unclean_low_light_only_self_msrcp.yml  -o Global.checkpoints="./output/pgnet_r50_vd_unclean_low_light_only_self/best_accuracy"
+
+
+
+

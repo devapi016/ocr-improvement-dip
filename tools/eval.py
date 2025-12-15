@@ -31,6 +31,14 @@ from ppocr.metrics import build_metric
 from ppocr.utils.save_load import load_model
 import tools.program as program
 
+import random
+import numpy as np
+
+random.seed(1234)
+np.random.seed(1234)
+paddle.seed(1234)
+paddle.framework.set_flags({'FLAGS_cudnn_deterministic': True})
+
 
 def main():
     global_config = config["Global"]
