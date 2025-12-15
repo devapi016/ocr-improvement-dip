@@ -12,7 +12,7 @@ and follow the instructions given [here](https://www.paddleocr.ai/v2.9/en/ppocr/
 
 ## Download
 
-Download data for folders `train_data/`, `pretrained_models/`, and `output/` from link [here](https://drive.google.com/drive/folders/18VWbTRHdT7YGkVs3j1W8j6SI1Xy64Nw5?usp=sharing).
+Download data for folders `train_data/`, `pretrained_models/`, and `output/` from link [here](https://drive.google.com/drive/folders/1LFZNUc0TBrLGSSExMYCTQUZn04Jf1CUS?usp=sharing).
 
 <!-- ```
 train_data/
